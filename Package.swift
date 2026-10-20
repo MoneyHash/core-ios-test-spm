@@ -18,7 +18,7 @@ let package = Package(
         .package(
             name: "MoneyHashShared",
             url: "https://github.com/MoneyHash/kmm-test-spm.git",
-            .exact("0.0.6-beta.2")
+            .exact("0.0.6-beta.3")
         )
     ],
     targets: [
@@ -31,7 +31,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "MoneyHashCore",
-            path: "./MoneyHashCore.xcframework"
+            url: "https://github.com/MoneyHash/core-ios-test-spm/releases/download/0.0.4-beta.3/MoneyHashCore.xcframework.zip",
+            checksum: "3358922dccf101e0f2303181009ce3d0651fba427d0d1de943ef500388189b21"
         ),
     ]
 )

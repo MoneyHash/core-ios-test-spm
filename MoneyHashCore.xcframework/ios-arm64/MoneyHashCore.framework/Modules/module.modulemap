@@ -1,4 +1,0 @@
-framework module MoneyHashCore {
-  header "MoneyHashCore-Swift.h"
-  requires objc
-}
