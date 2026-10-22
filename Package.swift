@@ -31,8 +31,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "MoneyHashCore",
-            url: "https://github.com/MoneyHash/core-ios-test-spm/releases/download/0.0.4-dev.1/MoneyHashCore.xcframework.zip",
-            checksum: "4c88109bf71f47413fc1cb39f9b555a9d19f183d7137bb3cda3ef5294e4ca0a2"
+            url: "https://github.com/MoneyHash/core-ios-test-spm/releases/download/0.0.4-dev.2/MoneyHashCore.xcframework.zip",
+            checksum: "6657e0e047136a06ff9453147c67863379a81d90405a13d25fb970ea8049d2eb"
         ),
     ]
 )
